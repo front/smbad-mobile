@@ -1,4 +1,8 @@
 
+* {
+  box-sizing: border-box;
+}
+
 a, img {
   display: block;
   text-decoration: none;
@@ -7,6 +11,7 @@ a, img {
 
 img.ad {
   width: 100%;
+  border-bottom: 1px solid #000;
 }
 
 .portal-logo {
@@ -14,14 +19,22 @@ img.ad {
 }
 
 .wrapper {
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   overflow: auto;
   clear: both;
 }
 
 .col {
-  width: 50%;
   float: left;
+}
+
+.col-1 {
+  width: 66%;
+  border-right: 1px solid #000;
+}
+
+.col-2 {
+  width: 34%
 }
 
 .inner {
@@ -35,8 +48,14 @@ img.ad {
   height: 40px;
 }
 
-.btn-share {
+.btn-action {
   background: #ccc;
+  border-right: 1px solid #000;
+}
+
+.btn a {
+  padding: 10px;
+  text-align: center;
 }
 
 /* Col 2*/
@@ -52,4 +71,7 @@ img.ad {
   float: left;
   border: 1px solid red;
   box-sizing: border-box;
+}
+
+h2.title {
 }
