@@ -38,14 +38,14 @@ img.ad {
 }
 
 .inner {
-  padding: 2%;
+  padding: 3%;
 }
 
 .btn {
   width: 50%;
   float: left;
   background: #009dcd;
-  height: 40px;
+  height: 80px;
 }
 
 .btn-action {
@@ -54,7 +54,7 @@ img.ad {
 }
 
 .btn a {
-  padding: 10px;
+  padding: 30px;
   text-align: center;
   color: white;
   text-transform: uppercase;
