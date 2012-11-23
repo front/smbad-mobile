@@ -44,18 +44,20 @@ img.ad {
 .btn {
   width: 50%;
   float: left;
-  background: #999;
+  background: #009dcd;
   height: 40px;
 }
 
 .btn-action {
-  background: #ccc;
+  background: #cfcfcb;
   border-right: 1px solid #000;
 }
 
 .btn a {
   padding: 10px;
   text-align: center;
+  color: white;
+  text-transform: uppercase;
 }
 
 /* Col 2*/
