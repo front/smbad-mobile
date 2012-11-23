@@ -1,0 +1,55 @@
+
+a, img {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+img.ad {
+  width: 100%;
+}
+
+.portal-logo {
+  float: right;
+}
+
+.wrapper {
+  border: 1px solid #ccc;
+  overflow: auto;
+  clear: both;
+}
+
+.col {
+  width: 50%;
+  float: left;
+}
+
+.inner {
+  padding: 2%;
+}
+
+.btn {
+  width: 50%;
+  float: left;
+  background: #999;
+  height: 40px;
+}
+
+.btn-share {
+  background: #ccc;
+}
+
+/* Col 2*/
+
+.discount {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+.prices div {
+  width: 50%;
+  float: left;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
