@@ -151,9 +151,9 @@ img.ad {
 }
 
 h2.title {
-  font-size: 1.2em;
+  font-size: 20px;
   font-weight: bold;
-  line-height: 1.6em;
+  line-height: 32px;
 }
 
 #overlay {
@@ -195,7 +195,7 @@ h2.title {
   width: 30px;
   left: 60px;
   position: absolute;
-  bottom: -13px;
+  bottom: -12px;
   background: url(img/bubble-arrow.png) no-repeat;
 }
 
