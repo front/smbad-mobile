@@ -35,6 +35,7 @@ img.ad {
   border: 1px solid #000;
   display: table;
   clear: both;
+  width: 100%;
 }
 
 .col {
@@ -53,7 +54,7 @@ img.ad {
 }
 
 .inner {
-  padding: 3%;
+  padding: 5%;
 }
 
 .ad-badge {
@@ -84,11 +85,11 @@ img.ad {
 }
 
 .btn a {
-  padding: 22px;
+  padding: 20px;
   text-align: center;
   color: white;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -103,10 +104,11 @@ img.ad {
 }
 
 .btn-ad a {
-  background: url(img/arrow-white.png) no-repeat right center;
+  background: url(img/arrow-white.png) no-repeat right 3px;
   background-origin: content-box;
-  padding-right: 28px;
+  padding-right: 20px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  margin-left: -13px;
 }
 
 #btn-action {
@@ -122,13 +124,20 @@ img.ad {
 
 /* Col 2*/
 
+.description {
+  position: absolute;
+  bottom: 60px;
+  top: 0px;
+  overflow: hidden;
+}
+
 .prices {
   float: left;
   position: absolute;
   bottom: 5px;
   left: 0px;
   right: 0px;
-  padding: 5px 10px 0 10px;
+  padding: 5px 5% 0 5%;
 }
 
 .discount {
@@ -145,21 +154,19 @@ img.ad {
   position: absolute;
   right: 0px;
 
-  margin-right: 10px;
+  margin-right: 5%;
   margin-top: -3px;
 }
 
 .before {
   color: #6a6b6b;
   font-size: 14px;
-  padding-left: 3px;
   padding-top: 8px;
 }
 
 .now {
   color: #29a3d7;
   font-size: 20px;
-  padding-left: 3px;
   margin-top: 3px;
 }
 
