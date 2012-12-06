@@ -1,6 +1,6 @@
 
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 a, img {
@@ -101,6 +101,7 @@ img.ad {
   background: -moz-linear-gradient(top, #42BEF1, #3ca3ce);
   background: -ms-linear-gradient(top, #42BEF1, #3ca3ce);
   background: -o-linear-gradient(top, #42BEF1, #3ca3ce);
+
 }
 
 .btn-ad a {
@@ -108,6 +109,7 @@ img.ad {
   background-origin: content-box;
   padding-right: 20px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+
   margin-left: -13px;
 }
 
